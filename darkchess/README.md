@@ -10,13 +10,20 @@ Additionally, we can optimize part of the data transmission by using [bloom filt
 
 ## Setup:
 Black randomly samples a private number: b_0.
-Black calculates its potential attack vector set. The set of potential attack vectors for your pieces which describes how each one of your pieces could potentially be moved upon by any potential opponent piece. Each vector needs 18 bits, and the total vector set is bounded by 1168 vectors
+Black calculates its potential attack vector set. The set of potential attack vectors for your pieces which describes how each one of your pieces could potentially be moved upon by any potential opponent piece. Each vector needs 18 bits, and the total vector set is bounded by 1168 vectors.
+
 3 bits for piece description (6 unique chess pieces)
+
 3 bits for x coordinate (8 squares for x)
+
 3 bits for y coordinate (8 squares for y)
+
 3 bits for attacking piece (6 unique chess pieces)
+
 3 bits for attacking piece x (8 squares for x)
+
 3 bits for attacking piece y (8 squares for y)
+
 For each element in the attack vector set, Black calculates the hash(element)^b_0 and inserts it into a bloom filter.
 Black sends the bloom filter to White.
 
