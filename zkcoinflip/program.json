@@ -1,0 +1,10 @@
+{
+    "program": "zkcoinflip.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkpGMCUUFDhMVkoXegH6zQTa3j3VDWpefDUMgM1u6ywfW73",
+        "address": "aleo14aglt9d54l7kvuxgf706k4m4n88cta9jhgfz3ga3kxlreqypkszsw35mev"
+    },
+    "license": "MIT"
+}

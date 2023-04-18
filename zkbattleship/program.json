@@ -1,0 +1,10 @@
+{
+    "program": "zkbattleship.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkp8jggajrd1nrPDfJviaSMt6SEz4XVuFU4FQwdQ2s7H9cb",
+        "address": "aleo1kwegwpnr7ytau9dgky46te5p30zuswzn9kq7rgulr38w06rf35rqrh0ukk"
+    },
+    "license": "MIT"
+}
