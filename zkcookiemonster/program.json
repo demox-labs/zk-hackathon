@@ -1,0 +1,10 @@
+{
+    "program": "zkcookiemonster.aleo",
+    "version": "0.0.0",
+    "description": "",
+    "development": {
+        "private_key": "APrivateKey1zkpGMmoLrcgM1TY3oYnL3Q57jicG89d8S9rEv2JNdRQLynN",
+        "address": "aleo129wz8hkmmejgl7ufnmtk9c3jrt67y5g5ftwmw4fztckznvxf0grshlm3ty"
+    },
+    "license": "MIT"
+}
